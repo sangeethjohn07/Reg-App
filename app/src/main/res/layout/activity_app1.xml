@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app1"
+    android:background="@drawable/images">
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/a"
+        android:onClick="ins"
+        android:text="insert" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="269dp"
+        android:background="@drawable/a"
+        android:onClick="goselect"
+        android:text="select" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="213dp"
+        android:background="@drawable/a"
+        android:onClick="godelete"
+        android:text="delete" />
+</RelativeLayout>
